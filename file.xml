@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="21.0.6" class="java.beans.XMLDecoder">
+ <object class="geschaeftslogik.Manager" id="Manager0">
+  <void id="ArrayList0" property="cargos">
+   <void method="add">
+    <object class="geschaeftslogik.CargoObjekt">
+     <void property="cargoType">
+      <string>UnitisedCargo</string>
+     </void>
+     <void property="durationOfStorage">
+      <null/>
+     </void>
+     <void property="lastInspectionDate">
+      <object class="java.util.Date">
+       <long>1743779534402</long>
+      </object>
+     </void>
+     <void property="owner">
+      <object class="geschaeftslogik.CustomerImpl" id="CustomerImpl0">
+       <void property="name">
+        <string>Bob</string>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="cargos">
+   <object idref="ArrayList0"/>
+  </void>
+  <void property="customers">
+   <void method="add">
+    <object idref="CustomerImpl0"/>
+   </void>
+  </void>
+  <void property="maxCapacity">
+   <int>5</int>
+  </void>
+ </object>
+</java>
